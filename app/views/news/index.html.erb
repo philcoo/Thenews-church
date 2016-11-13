@@ -1,19 +1,35 @@
-<ul id="slide-out" class="side-nav">
+<!-- <ul id="slide-out" class="side-nav">
     <li><div class="userView">
       <div class="background">
-         <%= image_tag("church.jpg")  %>
+         <#%= image_tag("church.jpg")  %>
       </div>
-      <a href="#!user">    <%= image_tag("prayer2.jpg", :width => 100, :height => 80,)  %></a>
+      <a href="#!user">    <#%= image_tag("prayer2.jpg", :width => 100, :height => 80,)  %></a>
      <span class="white-text name">The Word</span></a>
       <a href="#!email"><span class="white-text email"></span></a>
     </div></li>
-    <li><%= link_to 'EVENT', new_news_path %></li>
-    <li><a href="#!">Testimonies</a></li>
+    <li><#%= link_to 'EVENT', new_news_path %></li>
+    <li><a href="edit">Testimonies</a></li>
      <li><a href="#!">Devotions</a></li>
     <li><div class="divider"></div></li>
     <li><a class="subheader">Study the Word of God daily.</a></li>
    
   </ul>
+ -->
+
+
+
+
+ 
+
+  <!-- Dropdown Structure -->
+  <ul id='dropdown1' class='dropdown-content'>
+    <li><a href="/other/devotion">Testimony</a></li>
+    <li><a href="/other/prayer" style="color:orange">Prayer</a></li>
+    <li class="divider"></li>
+    <li><a href="/other/events">Events</a></li>
+    <li><a href="#!" style="color:orange">Trips</a></li>
+  </ul>
+        
   
 
 
@@ -26,9 +42,9 @@
 
 <div class="article">
   <div class="title">
-  <div id="icon">
-    <a data-activates="slide-out" class="button-collapse"><i class="material-icons" style="color:white;"><i class="large material-icons" >reorder</i></i></a>
-    </div>
+  <a class='dropdown-button btn' href='#' data-activates='dropdown1'><i class="material-icons" style="color:white; font-size:35px;">reorder</i></i></a>
+ </a>
+    
         
     <h1>TheNEWS@CHURCH</h1>
   </div>
@@ -93,14 +109,14 @@
  <div class="row">
     <div class="card">
       <div class="card-image">
-        <%= image_tag("prayer1.jpg", :width => 100, :height => 450,)  %>
-        <span class="card-title" style="font-family:impact; font-size:40px; color:#802A2A;">Prayer Change</span>
+       <a href="/other/saturday"> <%= image_tag("prayer1.jpg", :width => 100, :height => 450,)  %>
+        <span class="card-title" style="font-family:impact; font-size:40px; color:#802A2A;">Saturday Service</span>
       </div>
       <div class="card-content">
-        <p>It doesn't matter what yo going throught just know God can always answer your prayer..</p>
+        <p style="color:black">In here you will find the message of the last two saturday services..</p>
       </div>
       <div class="card-action">
-        <a href="#">A Prayer</a>
+     <h5 style="color:orange;"> Where Are You In The Lord?</h5>
       </div>
     </div>
     </div>
@@ -117,8 +133,10 @@
       </div>
     </div>
     </div>
-    <h3>Events</h3>
-    <p>Thanks</p>
+
+
+   <!--  saturday service side bar -->
+    
 
   </div>
 </div>
