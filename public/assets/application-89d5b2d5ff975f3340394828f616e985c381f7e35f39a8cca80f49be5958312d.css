@@ -1,0 +1,171 @@
+.title{
+	margin-top: -5px;
+	background-image: url(back1.jpg);
+	padding-top: 10px;	
+}
+.title h1{
+	text-align: center;
+	padding-bottom: 25px;
+	padding-top: -20px;
+
+}
+h1{
+	text-align: center;
+
+}
+h3{
+	color: orange;
+}
+.subtitle{
+	text-align: center;
+	font-size: 1.5em;
+}
+.marticle{
+	margin-top: 35px;
+	text-align: center;
+}
+.marticle{
+	font-size: 20px;
+
+}
+#icon{
+	float: left;
+}
+.event1{
+	text-align: center;
+}
+
+.wrp2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+	
+}
+
+.prayer{
+	text-align: center;
+	font-size:15px;
+  height: 39em;
+  width: 80em;
+ background-image: url(prayer2.jpg);
+ background-position: center;
+ margin-bottom: 3em;
+}
+
+.HolyGrail-header{
+  background-image: url(prayer1.jpg);
+ background-position: center;
+ max-width: 
+
+}
+
+ 
+.content2{
+ background-image: url(prayer1.jpg);
+ background-position: center;
+}
+
+.HolyGrail {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.HolyGrail-body {
+  display: flex;
+  flex: 1;
+}
+
+.HolyGrail-content {
+  flex: 1;
+}
+
+.HolyGrail-nav, .HolyGrail-ads {
+  /* 12em is the width of the columns */
+  flex: 0 0 22em;
+  height: 80%;
+  margin-top: 12px;
+}
+
+.HolyGrail-nav {
+  /* put the nav on the left */
+  order: -1;
+}
+
+.HolyGrail,
+.HolyGrail-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.HolyGrail-nav {
+  order: -1;
+}
+
+@media (min-width: 768px) {
+  .HolyGrail-body {
+    flex-direction: row;
+    flex: 1;
+  }
+  .HolyGrail-content {
+    flex: 1;
+  }
+  .HolyGrail-nav, .HolyGrail-ads {
+    /* 12em is the width of the columns */
+    flex: 2em 1em 15em;
+  }
+
+}
+
+
+.nav1{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+ /* justify-content: space-between;*/
+font-size:20px;
+
+}
+
+/*
+talk with the lord css*/
+.talk{
+  margin-top: 5em;
+  border: solid;
+  padding-left:10px;
+  margin-bottom: 5em; 
+  border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+}
+.talk h3{
+  text-align: center;
+}
+
+#slides{
+  margin-left: 25px;
+}
+
+.downfoot{
+  text-align: center;
+  margin-bottom: 45px;
+  font-family: impact;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+

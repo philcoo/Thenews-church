@@ -1,17 +1,10 @@
-
- // $( document ).ready(function(){
- // 	 $(".button-collapse").sideNav();
- // })
-
- // $(document).ready(function(){
- //      $('.slider').slider({full_width: true});
- //    });
-
- // $('.button-collapse').sideNav({
- //      menuWidth: 300, 
- //      edge: 'right', 
- //      closeOnClick: true, 
- //      draggable: true // 
- //    }
- //  );
- //        
+$(document).ready(function() {
+    $('#fullpage').fullpage({
+      navigation : true,
+      navigationPosition : 'right',
+      navigationTooltips: ['home', 'about us', 'our works', 'contact us'],
+      slidesNavigation : true,
+      slidesNavPosition : 'bottom',
+      controlArrows: false,
+    });
+});

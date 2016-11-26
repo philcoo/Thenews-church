@@ -1,36 +1,12 @@
-<!-- <ul id="slide-out" class="side-nav">
-    <li><div class="userView">
-      <div class="background">
-         <#%= image_tag("church.jpg")  %>
-      </div>
-      <a href="#!user">    <#%= image_tag("prayer2.jpg", :width => 100, :height => 80,)  %></a>
-     <span class="white-text name">The Word</span></a>
-      <a href="#!email"><span class="white-text email"></span></a>
-    </div></li>
-    <li><#%= link_to 'EVENT', new_news_path %></li>
-    <li><a href="edit">Testimonies</a></li>
-     <li><a href="#!">Devotions</a></li>
-    <li><div class="divider"></div></li>
-    <li><a class="subheader">Study the Word of God daily.</a></li>
-   
-  </ul>
- -->
 
 
 
+<div id="fullpage">
 
+  <div class="sectionhome">
+    <!-- Dropdown Structure -->
  
 
-  <!-- Dropdown Structure -->
-  <ul id='dropdown1' class='dropdown-content'>
-    <li><a href="/other/devotion">Testimony</a></li>
-    <li><a href="/other/prayer" style="color:orange">Prayer</a></li>
-    <li class="divider"></li>
-    <li><a href="/other/events">Events</a></li>
-    <li><a href="#!" style="color:orange">Trips</a></li>
-  </ul>
-        
-  
 
 
 
@@ -40,21 +16,18 @@
 
 
 
-<div class="article">
-  <div class="title">
-  <a class='dropdown-button btn' href='#' data-activates='dropdown1'><i class="material-icons" style="color:white; font-size:35px;">reorder</i></i></a>
- </a>
+
     
-        
-    <h1>TheNEWS@CHURCH</h1>
-  </div>
-  <!--  the subtitle -->
-  <div class="subtitle">
-    <td>SUNDAY MESSAGE</td>
-  </div>
-  <div class="row">
+    <!--  the subtitle -->
+    <div class="subtitle">
+      <h3>SUNDAY MESSAGE</h3>
+     
+    </div>
+
+     <div class="divider"></div>
+    <div class="row">
       <div class="col s7 "><span class="flow-text"><div class="container">
-       
+
        <span class="date" style="font-size:12px;"> October 30, 2016</span>
 
        <h3 style="font-family:impact;color:orange;">Don't Give Away What You Have.</h3>.</span>
@@ -95,64 +68,60 @@
           and so you won't do your own will but God's.<strong>God Bless</strong> 
 
         </p>
-  </div>
-     
-    </div>
-          
-  <!--  the message  -->
+      </div>
 
-  
-  <div class="side-bar">
-
-<div class="row">
-   <div class="col s3">
- <div class="row">
-    <div class="card">
-      <div class="card-image">
-       <a href="/other/saturday"> <%= image_tag("prayer1.jpg", :width => 100, :height => 450,)  %>
-        <span class="card-title" style="font-family:impact; font-size:40px; color:#802A2A;">Saturday Service</span>
-      </div>
-      <div class="card-content">
-        <p style="color:black">In here you will find the message of the last two saturday services..</p>
-      </div>
-      <div class="card-action">
-     <h5 style="color:orange;"> Where Are You In The Lord?</h5>
-      </div>
-    </div>
-    </div>
-    <div class="card">
-      <div class="card-image">
-        <%= image_tag("prayer2.jpg", :width => 100, :height => 450,)  %>
-        <span class="card-title" style="font-family:bold; font-size:45px; color:black;">Talk With GOD</span>
-      </div>
-      <div class="card-content">
-        <p>It doesn't matter what yo going throught just know God can always answer your prayer..</p>
-      </div>
-      <div class="card-action">
-        <a href="#">A Prayer</a>
-      </div>
-    </div>
     </div>
 
+    <!--  the message  -->
 
-   <!--  saturday service side bar -->
+
+    <div class="side-bar">
+
+      <div class="row">
+       <div class="col s3">
+         <div class="row">
+          <div class="card">
+            <div class="card-image">
+           <!--  the link to saturday service -->
+             <a href="/other/saturday"> <%= image_tag("prayer1.jpg", :width => 100, :height => 450,)  %>
+              <span class="card-title" style="font-family:impact; font-size:40px; color:#802A2A;">Saturday Service</span>
+            </div>
+            <div class="card-content">
+              <p style="color:black">In here you will find the message of the last two saturday services..</p>
+            </div>
+
+            <div class="card-action">
+             <h5 style="color:orange;"> Where Are You In The Lord?</h5>
+           </div>
+         </div>
+       </div>
+
+       <div class="card">
+        <div class="card-image">
+        <a href="/other/talk"> 
+          <%= image_tag("prayer2.jpg", :width => 100, :height => 450,)  %>
+          <span class="card-title" style="font-family:bold; font-size:45px; color:black;">Talk With GOD</span>
+        </div>
+        <div class="card-content">
+          <p>It doesn't matter what yo going throught just know God can always answer your prayer..</p>
+        </div>
+        <div class="card-action">
+          <a href="#">A Prayer</a>
+        </div>
+      </div>
+    </div>
+  </di>
+  <div class="section2">
     
-
   </div>
+
+  <div class="section3">
+    
+  </div>
+
+
+
+  <!--  saturday service side bar -->
+
+
 </div>
-
-
-
-
-</div>
-</div>
-</div>
-
-
-
-</div>
-
-
-<br>
-
-
