@@ -8,5 +8,6 @@ Rails.application.routes.draw do
   get 'other/prayer'
   get 'other/saturday'
   get 'other/talk'
+  get 'other/lastsaturday'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
